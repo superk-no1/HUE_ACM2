@@ -1,0 +1,11 @@
+server:
+  port: 8081 # 应用服务 WEB 访问端口
+spring:
+  application:
+    name: backend # 应用名称
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver # 数据库驱动
+    name: defaultDataSource # 数据源名称
+    url: jdbc:mysql://101.43.109.27:3306/hue_acm?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&&useSSL=false
+    username: root
+    password: 123456
